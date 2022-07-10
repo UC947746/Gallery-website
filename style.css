@@ -6,6 +6,13 @@
     
 }
 
+.made{
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: #222 ;
+}
+
 .container{
     display: flex;
     flex-direction: column;
