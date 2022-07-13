@@ -1,16 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    box-sizing: border-box;
+* {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
 }
 
 /* Navbar */
-* {
+/* * {
     box-sizing: border-box;
-}
+} */
 
 body {
     margin: 0;
@@ -112,7 +109,7 @@ body {
 }
 
 /* heading */
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,36 +118,103 @@ body {
     margin: 40px 20px 0 20px;
 }
 
-.container .heading{
+.container .heading {
     width: 50%;
-    padding-bottom: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
     color: white;
 }
 
-.container .heading h3{
+.container .heading h3 {
     font-size: 30px;
     font-weight: bolder;
     padding-bottom: 10px;
     border-bottom: 3px solid white;
 }
 
-.container .heading h3 span{
+.container .heading h3 span {
     font-weight: 100;
 }
 
-@media only screen and (max-width: 651px){
-    .container .heading{
+@media only screen and (max-width: 651px) {
+    .container .heading {
         width: 100%;
     }
-    .container .heading h3{
+
+    .container .heading h3 {
         font-size: 23px;
     }
 }
 
+.bluebox {
+    background-image: url(Aethetic.webp);
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    padding-top: 60px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
+    border-radius: 5%;
+}
+
+
+.yellowbox {
+    background-image: url(Aethetic.webp);
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    padding-top: 60px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
+    border-radius: 5%;
+}
+
+.greenbox {
+    background-image: url(Aethetic.webp);
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    padding-top: 60px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
+    border-radius: 5%;
+}
+.blackbox {
+    background-image: url(Aethetic.webp);
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+    color: white;
+    text-align: center;
+    width: auto;
+    height: 100px;
+    padding-top: 60px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
+    border-radius: 5%;
+}
+.blackbox1{
+    text-decoration: none;
+}
+
+
 /* made by me */
-.made{
+.made {
     text-align: center;
     font-size: 25px;
     color: black;
-    background-color: darkgray ;
+    background-color: darkgray;
+    margin-bottom: 0px;
 }
