@@ -70,6 +70,10 @@ body {
     background-color: darkgray;
 }
 
+#idk{
+    color: blue;
+}
+
 .brand-title {
     font-size: 1.5rem;
     margin: .5rem;
