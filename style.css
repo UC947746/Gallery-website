@@ -129,46 +129,50 @@ body {
     font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 100px;
+    margin-bottom: 80px;
 }
 
 .column1 p{
     font-size: 25px;
-    /* margin-bottom: 20px; */
+    margin-bottom: 40px;
 
 }
 
 .column1 button{
-    width: 150px;
-    padding: 10px 15px;
+    width: 200px;
+    padding: 20px 20px;
     border-radius: 20px;
     border-style: none;
-    color: white;
-    font-size: 15px;
+    color: black;
+    font-size: 17px;
     font-weight: 600;
-    background: transparent;
-    background-position: 2.6in 10.2in;
     border: 2px solid white;
     font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(black,white);
+    transition: ease-in-out 0.5s;
 }
 .column1 button:hover{
-    transition: ease-in-out 0.5s;
+    background: linear-gradient( white,black);
     background-color: aliceblue;
-    color: black;
+    color: white;
 }
 
-/* Header content respnsive*/
-@media screen and (max-width: 980px){
-    
+/* Header content responsive */
+@media (max-width: 800px){
+    .column1 h1{
+        font-size: 37px;
+    }
+    .column1 p{
+        font-size: 20px;
+    }
 }
-
-
 
 /* made by me */
 .made p{
     text-align: center;
     font-size: 25px;
-    color: black;
-    background-color: darkgray;
+    color: white;
+    background: linear-gradient(blue,black);
     
 }
 .made {
