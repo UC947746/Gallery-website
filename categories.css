@@ -32,6 +32,12 @@ body {
     margin: .5rem;
     background-color: darkgray;
 }
+#idk5{
+    text-decoration: none;
+    border: 0px solid white;
+    color: black;
+    background-color: darkgray;
+}
 
 .navbar-links {
     height: 100%;
@@ -181,10 +187,10 @@ body {
 }
 
 .greenbox {
-    background-image: url(Aethetic.webp);
+    background-image: url("Apple logo.jpeg");
     background-position: center;
     box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
-    color: white;
+    color: black;
     text-align: center;
     width: auto;
     height: 100px;

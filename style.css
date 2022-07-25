@@ -32,6 +32,12 @@ body {
     margin: .5rem;
     background-color: darkgray;
 }
+#idk5{
+    text-decoration: none;
+    border: 0px solid white;
+    color: black;
+    background-color: darkgray;
+}
 
 .navbar-links {
     height: 100%;
