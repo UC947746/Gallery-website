@@ -128,7 +128,7 @@ body {
 .column1 h1{
     font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
-    padding-top: 100px;
+    padding-top: 80px;
     margin-bottom: 80px;
 }
 
@@ -160,7 +160,7 @@ body {
 /* Header content responsive */
 @media (max-width: 800px){
     .column1 h1{
-        font-size: 37px;
+        font-size: 35px;
     }
     .column1 p{
         font-size: 20px;
