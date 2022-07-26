@@ -12,7 +12,7 @@
 body {
     margin: 0;
     padding: 0;
-} 
+}
 
 .navbar {
     display: flex;
@@ -23,7 +23,8 @@ body {
     color: black;
     background-color: darkgray;
 }
-#idk{
+
+#idk {
     color: blue;
 }
 
@@ -32,7 +33,8 @@ body {
     margin: .5rem;
     background-color: darkgray;
 }
-#idk5{
+
+#idk5 {
     text-decoration: none;
     border: 0px solid white;
     color: black;
@@ -120,31 +122,32 @@ body {
 
 
 
-.row{
+.row {
     align-items: center;
     color: white;
     text-align: center;
-    
+
 }
+
 /* .row .column1 {
     padding-right: 50px;
     
 } */
 
-.column1 h1{
+.column1 h1 {
     font-size: 55px;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 80px;
     margin-bottom: 80px;
 }
 
-.column1 p{
+.column1 p {
     font-size: 25px;
     margin-bottom: 40px;
 
 }
 
-.column1 button{
+.column1 button {
     width: 200px;
     padding: 20px 20px;
     border-radius: 20px;
@@ -154,45 +157,48 @@ body {
     font-weight: 600;
     border: 2px solid white;
     font-family: 'Courier New', Courier, monospace;
-    background: linear-gradient(black,white);
+    background: linear-gradient(black, white);
     transition: ease-in-out 0.5s;
 }
-.column1 button:hover{
-    background: linear-gradient( white,black);
+
+.column1 button:hover {
+    background: linear-gradient(white, black);
     background-color: aliceblue;
     color: white;
 }
 
 /* Header content responsive */
-@media (max-width: 800px){
-    .column1 h1{
+@media (max-width: 800px) {
+    .column1 h1 {
         font-size: 35px;
     }
-    .column1 p{
+
+    .column1 p {
         font-size: 20px;
     }
 }
 
 .container {
-    margin-top: 50px;
-    position: relative;
-    text-align: center;
-}
-.container img{
-    height: 300px;
+    margin-top: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
+
 /* made by me */
-.made p{
+.made p {
     text-align: center;
     font-size: 25px;
     color: white;
-    background: linear-gradient(blue,black);
-    
+    background: linear-gradient(blue, black);
+
 }
+
 .made {
     align-items: center;
     position: relative;
-    margin-top: 250px;
+    margin-top: 100px;
     width: 100%;
 }
