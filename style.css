@@ -173,6 +173,15 @@ body {
     }
 }
 
+.container {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+}
+.container img{
+    height: 300px;
+}
+
 /* made by me */
 .made p{
     text-align: center;
@@ -184,6 +193,6 @@ body {
 .made {
     align-items: center;
     position: relative;
-    margin-top: 470px;
+    margin-top: 250px;
     width: 100%;
 }
