@@ -185,7 +185,10 @@ body {
     margin-right: auto;
     width: 70%;
 }
-
+.container:hover{
+    width: 80%;
+    border: 2px solid white;
+}
 
 /* made by me */
 .made p {
