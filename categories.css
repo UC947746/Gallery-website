@@ -187,7 +187,7 @@ body {
 }
 
 .greenbox {
-    background-image: url("Apple logo.jpeg");
+    background-image: url("favicon/Apple logo.jpeg");
     background-position: center;
     box-shadow: 0 4px 8px 0 rgba(255, 253, 253, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
     color: black;

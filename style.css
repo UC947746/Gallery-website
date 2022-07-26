@@ -132,7 +132,7 @@ body {
 } */
 
 .column1 h1{
-    font-size: 60px;
+    font-size: 55px;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 80px;
     margin-bottom: 80px;
@@ -183,7 +183,7 @@ body {
 }
 .made {
     align-items: center;
-    position: fixed;
-    bottom: 0;
+    position: relative;
+    margin-top: 470px;
     width: 100%;
 }
