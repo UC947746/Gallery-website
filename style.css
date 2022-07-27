@@ -1,7 +1,10 @@
 * {
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
+    background-image: url(background/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 /* Navbar */
@@ -22,6 +25,10 @@ body {
     background-color: #333;
     color: black;
     background-color: darkgray;
+    background-image: none;
+}
+.navbar a{
+    background-image: none;
 }
 
 #idk {
@@ -32,6 +39,7 @@ body {
     font-size: 1.5rem;
     margin: .5rem;
     background-color: darkgray;
+    background-image: none;
 }
 
 #idk5 {
@@ -43,6 +51,7 @@ body {
 
 .navbar-links {
     height: 100%;
+    background-image: none;
 }
 
 .navbar-links ul {
@@ -84,6 +93,7 @@ body {
     width: 100%;
     border-radius: 10px;
     background-color: black;
+    background-image: none;
 }
 
 @media (max-width: 800px) {
@@ -124,27 +134,28 @@ body {
 
 .row {
     align-items: center;
-    color: white;
+    color: black;
     text-align: center;
-
+    background: none;
 }
 
-/* .row .column1 {
-    padding-right: 50px;
+.row .column1 {
+    background: none;
     
-} */
+}
 
 .column1 h1 {
     font-size: 55px;
     font-family: 'Courier New', Courier, monospace;
     padding-top: 80px;
     margin-bottom: 80px;
+    background-image: none;
 }
 
 .column1 p {
     font-size: 25px;
     margin-bottom: 40px;
-
+    background-image: none;
 }
 
 .column1 button {
@@ -159,6 +170,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
     background: linear-gradient(black, white);
     transition: ease-in-out 0.5s;
+    background-image: none;
+}
+.column1 a{
+    background-image: none;
 }
 
 .column1 button:hover {
@@ -178,16 +193,22 @@ body {
     }
 }
 
-.container {
+.portfolio {
     margin-top: 75px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;
+    background-image: none;
 }
-.container:hover{
+.portfolio1{
+    background-image: none;
+}
+
+.portfolio:hover{
     width: 80%;
     border: 2px solid white;
+    background-image: none;
 }
 
 /* made by me */
