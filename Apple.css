@@ -205,9 +205,9 @@ body {
 }
 
 .container .box .dream img{
-    width: 100%;
+    width: 90%;
     padding-bottom: 15px;
-    border-radius: 8px;
+    border-radius: 8px solid white;
 }
 
 /* Chaning the images for small devices */
