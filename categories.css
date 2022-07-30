@@ -1,7 +1,6 @@
 * {
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: black;
 }
 
 /* Navbar */
@@ -12,6 +11,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .navbar {
@@ -131,14 +131,14 @@ body {
     width: 50%;
     padding-bottom: 5px;
     margin-bottom: 20px;
-    color: white;
+    color: blue;
 }
 
 .container .heading h3 {
     font-size: 30px;
     font-weight: bolder;
     padding-bottom: 10px;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid blue;
 }
 
 .container .heading h3 span {
@@ -225,4 +225,49 @@ body {
     font-size: 25px;
     color: black;
     background-color: darkgray;
+}
+
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 500px;
+    top: 50px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+label:before{
+    position: absolute;
+    content: '';
+    width:20px;
+    height: 20px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    background: black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+label.active:before{
+    left: 24px;
+    background: #fff;
+}
+body.night{
+    background: #000;
+    color: #fff;
+}
+@media screen and (min-width:900px) {
+  .respon{
+    display: flex;
+  }
+  img{
+    height:50%;
+    width:auto;
+    padding-top: 3vh;
+    padding-right: 5%;
+  }
+  p{
+    max-width: 80%;
+    line-height: 30px;
+  }
 }

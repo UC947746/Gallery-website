@@ -12,6 +12,10 @@
 </head>
 
 <body>
+  <header>
+    <label id="dark-change"></label>
+  </header>
+
   <nav class="navbar">
     <a href="index.html" id="idk5">
       <div class="brand-title">UC's Wallpapers</div>
@@ -31,27 +35,38 @@
       </ul>
     </div>
   </nav>
-
-  <div class="container">
-    <div class="heading">
-      <h3>Welcome to my <span> Wallpapers</span></h3>
+  
+  <main>
+    <div class="container">
+      <div class="heading">
+        <h3>Welcome to my <span> Wallpapers</span></h3>
+      </div>
     </div>
-  </div>
 
-  <a href="Aesthetic.html" class="blackbox1">
-    <div class="bluebox">Aesthetic</div>
-  </a>
-  <a href="Apple.html" class="blackbox1">
-    <div class="greenbox">Apple.</div>
-  </a>
-  <a href="Aesthetic.html" class="blackbox1">
-    <div class="yellowbox">Aesthetic</div>
-  </a>
-  <a href="Aesthetic.html" class="blackbox1">
-    <div class="blackbox">Aesthetic</div>
-  </a>
+    <a href="Aesthetic.html" class="blackbox1">
+      <div class="bluebox">Aesthetic</div>
+    </a>
+    <a href="Apple.html" class="blackbox1">
+      <div class="greenbox">Apple.</div>
+    </a>
+    <a href="Aesthetic.html" class="blackbox1">
+      <div class="yellowbox">Aesthetic</div>
+    </a>
+    <a href="Aesthetic.html" class="blackbox1">
+      <div class="blackbox">Aesthetic</div>
+    </a>
 
-  <p class="made">Made by Udhav</p>
+    <p class="made">Made by Udhav</p>
+  </main>
+
+  <script>
+    var content = document.getElementsByTagName('body')[0];
+    var darkMode = document.getElementById('dark-change');
+    darkMode.addEventListener('click', function () {
+      darkMode.classList.toggle('active');
+      content.classList.toggle('night');
+    })
+  </script>
 </body>
 
 </html>
