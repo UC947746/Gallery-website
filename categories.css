@@ -23,7 +23,8 @@ body {
     color: black;
     background-color: darkgray;
 }
-#idk{
+
+#idk {
     color: blue;
 }
 
@@ -32,7 +33,8 @@ body {
     margin: .5rem;
     background-color: darkgray;
 }
-#idk5{
+
+#idk5 {
     text-decoration: none;
     border: 0px solid white;
     color: black;
@@ -145,13 +147,17 @@ body {
     font-weight: 100;
 }
 
-@media only screen and (max-width: 651px) {
+@media only screen and (max-width: 800px) {
     .container .heading {
         width: 100%;
     }
 
     .container .heading h3 {
-        font-size: 23px;
+        font-size: 25px;
+    }
+    #dark-change {
+        right: 70px;
+        top: 9px;
     }
 }
 
@@ -200,6 +206,7 @@ body {
     font-size: 25px;
     border-radius: 5%;
 }
+
 .blackbox {
     background-image: url(Aethetic.webp);
     background-position: center;
@@ -214,32 +221,34 @@ body {
     font-size: 25px;
     border-radius: 5%;
 }
-.blackbox1{
+
+.blackbox1 {
     text-decoration: none;
 }
 
 
 /* made by me */
-.made{
+.made {
     text-align: center;
     font-size: 25px;
     color: black;
     background-color: darkgray;
 }
 
-label{
+label {
     position: absolute;
     width: 45px;
     height: 22px;
     right: 400px;
-    top: 10px;
+    top: 12px;
     border: 2px solid;
     border-radius: 20px;
 }
-label:before{
+
+label:before {
     position: absolute;
     content: '';
-    width:20px;
+    width: 20px;
     height: 20px;
     left: 1px;
     top: 1px;
@@ -248,29 +257,31 @@ label:before{
     cursor: pointer;
     transition: 0.4s;
 }
-label.active:before{
+
+label.active:before {
     left: 24px;
     background: black;
 }
-body.night{
+
+body.night {
     background: #000;
     color: #fff;
 }
+
 @media screen and (min-width:900px) {
-  .respon{
-    display: flex;
-  }
-  img{
-    height:50%;
-    width:auto;
-    padding-top: 3vh;
-    padding-right: 5%;
-  }
-  p{
-    max-width: 80%;
-    line-height: 30px;
-  }
-  label{
-    right: 600px;
-  }
+    .respon {
+        display: flex;
+    }
+
+    img {
+        height: 50%;
+        width: auto;
+        padding-top: 3vh;
+        padding-right: 5%;
+    }
+
+    p {
+        max-width: 100%;
+        line-height: 30px;
+    }
 }
